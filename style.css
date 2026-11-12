@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 90vh;
+    gap: 50px;
 }
 
 .board{
@@ -20,6 +21,13 @@ body{
     border: 1px solid burlywood;
 }
 
-.box:hover{
+/* .box:hover{
     background-color: slategrey;
+} */
+
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 20vh;
 }
