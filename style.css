@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
 body{
     background-color: rgb(156, 130, 98);
     display: flex;
@@ -5,13 +7,14 @@ body{
     align-items: center;
     min-height: 90vh;
     gap: 50px;
+    font-family: 'Irish Grover', cursive;
 }
 
 .board{
     display: flex;
     flex-wrap: wrap;
-    width: 352px;
-    height: auto;
+    /* width: 352px; */
+    /* height: auto;
     justify-content: center;
 }
 .box{
@@ -19,15 +22,29 @@ body{
     width: 20px;
     background-color: beige;
     border: 1px solid burlywood;
-}
+} */
 
 /* .box:hover{
     background-color: slategrey;
 } */
-
+/* 
 .Buttons{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 20vh;
 }
+
+.sketch,.eraser,.grid{
+    border: none;
+    background-color: brown;
+    color: whitesmoke;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-family: 'Irish Grover', cursive;
+}
+
+.sketch,.eraser:hover{
+    cursor: pointer;
+/* } */ 
